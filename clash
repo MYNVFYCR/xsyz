@@ -5,77 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇮🇹 意大利, server: 84.17.58.134, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇪🇸 西班牙, server: 89.37.95.173, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 乌克兰, server: 37.19.211.52, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 乌克兰 2, server: 37.19.211.114, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 乌克兰 3, server: 37.19.211.12, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 乌克兰 4, server: 37.19.211.74, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 顺丰资源Youtube 5, server: 37.19.211.104, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 顺丰资源Youtube 2, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 顺丰资源Youtube 18, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 顺丰资源Youtube 17, server: 138.199.42.157, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 顺丰资源Youtube 16, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 顺丰资源Youtube 13, server: euserv5p.ezddns.tk, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
-  - {name: 顺丰资源Youtube, server: 212.102.44.81, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 塞浦路斯, server: 195.47.194.81, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国, server: 138.199.16.140, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 2, server: 138.199.16.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 3, server: 207.244.125.132, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 4, server: euserv6p.ezddns.tk, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
   - {name: 🇺🇸 美国 5, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 6, server: 154.84.1.156, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
-  - {name: 🇺🇸 美国 7, server: 138.199.42.159, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 8, server: 138.199.42.135, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 9, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 10, server: 185.212.203.115, port: 36402, type: ss, cipher: aes-256-gcm, password: qLVVsktJzWpi}
-  - {name: 🇺🇸 美国 11, server: euserv8p.ezddns.tk, port: 80, type: vmess, uuid: 24d6dc76-f0a0-4809-8a70-6ad2dce20022, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /video, ws-headers: {Host: euserv8p.ezddns.tk}}
   - {name: 🇺🇸 美国 12, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 13, server: 23.224.8.91, port: 443, type: vmess, uuid: bef6f470-d961-4419-a0df-d9c2dcafaefa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.10925848.xyz}}
-  - {name: 🇺🇸 美国 14, server: 23.225.28.174, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
-  - {name: 🇷🇴 罗马尼亚, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 罗马 顺丰资源Youtube 8, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 罗马 顺丰资源Youtube 7, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 罗马 顺丰资源Youtube 6, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 罗马 顺丰资源Youtube 4, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 罗马 顺丰资源Youtube 3, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇷🇴 罗马尼亚, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
   - {name: 罗马 顺丰资源Youtube 2, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 罗马 顺丰资源Youtube 15, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 罗马 顺丰资源Youtube 13, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 罗马 顺丰资源Youtube 11, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 老杨爱分享YouTube频道 9, server: 37.19.211.47, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道 8, server: 143.244.42.81, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道 7, server: 193.29.106.141, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道 6, server: 138.199.16.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道 5, server: 195.47.194.101, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道 3, server: 139.28.176.157, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道 21, server: 80.85.156.31, port: 40331, type: vmess, uuid: f3dc16e3-715c-4839-abd3-8e0c6df46064, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 老杨爱分享YouTube频道 2, server: 23.108.108.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道, server: 37.19.211.77, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道 4, server: 37.19.211.112, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道 10, server: 138.199.42.153, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道 11, server: 37.19.211.72, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 老杨爱分享YouTube频道 12, server: 37.19.211.32, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 荷兰, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.32811341.xyz}}
-  - {name: 🇳🇱 荷兰 2, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.06321530.xyz}}
-  - {name: 🇳🇱 荷兰 3, server: nl1.hiout.me, port: 36402, type: ss, cipher: aes-256-gcm, password: qLVVsktJzWpi}
-  - {name: 🇳🇱 荷兰 4, server: 46.182.107.144, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 🇳🇱 荷兰 5, server: 46.182.107.148, port: 443, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a539467bc7a7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.73207635.xyz}}
-  - {name: 🇳🇱 荷兰 6, server: 154.84.1.10, port: 443, type: vmess, uuid: bcca23ea-be73-4caf-b143-cbab2be93145, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
-  - {name: 🇳🇱 荷兰 7, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd3588, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
-  - {name: 🇳🇱 荷兰 8, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26111a061f9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
-  - {name: 🇳🇱 荷兰 9, server: 46.182.107.97, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f077621b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.08538470.xyz}}
-  - {name: 🇳🇱 荷兰 10, server: 46.182.107.82, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
-  - {name: 🇳🇱 荷兰 11, server: 46.182.107.145, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 🇫🇷 法国, server: bimbel.ruangguru.com, port: 80, type: vmess, uuid: b22b990f-b6dd-4b57-a0e1-ee3f829d413f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sshkit, ws-headers: {Host: eu-sshkit.v2-ray.cf}}
-  - {name: 🇺🇸 美国 顺丰资源Youtube 2, server: 143.244.42.96, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 Pool_🇺🇸US_5483, server: 143.244.42.71, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇵🇭 (购买奈飞时使用)菲律宾, server: 45.134.224.15, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇪🇺 欧洲 顺丰资源Youtube 4, server: 212.102.54.175, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_🇬🇧GB_2112, server: 217.138.196.205, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://www.mattkaydiary.com|🇳🇱 NL_4012, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-96dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
   - {name: https://www.mattkaydiary.com|🇯🇵 JP_3404, server: 54.249.130.71, port: 53964, type: vmess, uuid: 90f5ae88-9731-4970-8055-c7b05d63245a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 4.81Mb", server: 102.130.122.184, port: 80, type: vmess, uuid: a514a5fe-0fc6-4d30-a5ec-96bff8d9f5d5, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 102.130.122.184}}
+  - {name: 🇭🇰 香港, server: jsdx.v2cy.com, port: 80, type: vmess, uuid: 586fb889-61ee-42d9-b374-c1440b0a0664, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dn-7dp8osc1.cn2.run.gxu.edu.cn}}
+  - {name: 🇯🇵 日本, server: cm-jm.okvpn.cc, port: 20015, type: vmess, uuid: 18b61e56-ecc2-41fb-b7f0-a13507d59487, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇺🇸 美国, server: cq.v2cy.com, port: 80, type: vmess, uuid: 586fb889-61ee-42d9-b374-c1440b0a0664, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dn-o0f42gbt.cn2.run.gxu.edu.cn}}
+  - {name: 🇭🇰 香港 2, server: tvsblue.ml, port: 892, type: vmess, uuid: fa0b586a-317f-3797-bac8-aaf68fc28c27, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.ts, ws-headers: {Host: en.tgchannels.org/channel/vpnpool}}
+  - {name: 克罗地亚, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇩🇪 德国, server: de.comefromchinatown.com, port: 80, type: vmess, uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: client.wns.windows.com}}
+  - {name: 🇮🇹 意大利, server: 82.102.26.117, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇭🇰 香港 3, server: xa.v2cy.com, port: 80, type: vmess, uuid: 586fb889-61ee-42d9-b374-c1440b0a0664, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dn-7dp8osc1.cn2.run.gxu.edu.cn}}
+  - {name: 🇷🇴 罗马尼亚 2, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 美国 2, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 美国 3, server: 135.125.207.34, port: 80, type: vmess, uuid: b42c2cbd-9aa7-42f6-9239-6055906bee3b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
+  - {name: 🇺🇸 美国 4, server: 23.225.28.174, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
+  - {name: 🇰🇷 韩国, server: 3.36.76.192, port: 31812, type: vmess, uuid: a1371d43-f0fe-43cf-b826-d900a1c8de49, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -84,306 +32,98 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇮🇹 意大利
-      - 🇪🇸 西班牙
-      - 乌克兰
-      - 乌克兰 2
-      - 乌克兰 3
-      - 乌克兰 4
-      - 顺丰资源Youtube 5
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 18
-      - 顺丰资源Youtube 17
-      - 顺丰资源Youtube 16
-      - 顺丰资源Youtube 13
-      - 顺丰资源Youtube
-      - 塞浦路斯
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 12
+      - 🇷🇴 罗马尼亚
+      - 罗马 顺丰资源Youtube 2
+      - 罗马 顺丰资源Youtube 13
+      - https://www.mattkaydiary.com|🇯🇵 JP_3404
+      - 🇭🇰 香港
+      - 🇯🇵 日本
       - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - 克罗地亚
+      - 🇩🇪 德国
+      - 🇮🇹 意大利
+      - 🇭🇰 香港 3
+      - 🇷🇴 罗马尼亚 2
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇷🇴 罗马尼亚
-      - 罗马 顺丰资源Youtube 8
-      - 罗马 顺丰资源Youtube 7
-      - 罗马 顺丰资源Youtube 6
-      - 罗马 顺丰资源Youtube 4
-      - 罗马 顺丰资源Youtube 3
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 15
-      - 罗马 顺丰资源Youtube 13
-      - 罗马 顺丰资源Youtube 11
-      - 老杨爱分享YouTube频道 9
-      - 老杨爱分享YouTube频道 8
-      - 老杨爱分享YouTube频道 7
-      - 老杨爱分享YouTube频道 6
-      - 老杨爱分享YouTube频道 5
-      - 老杨爱分享YouTube频道 3
-      - 老杨爱分享YouTube频道 21
-      - 老杨爱分享YouTube频道 2
-      - 老杨爱分享YouTube频道
-      - 老杨爱分享YouTube频道 4
-      - 老杨爱分享YouTube频道 10
-      - 老杨爱分享YouTube频道 11
-      - 老杨爱分享YouTube频道 12
-      - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇳🇱 荷兰 3
-      - 🇳🇱 荷兰 4
-      - 🇳🇱 荷兰 5
-      - 🇳🇱 荷兰 6
-      - 🇳🇱 荷兰 7
-      - 🇳🇱 荷兰 8
-      - 🇳🇱 荷兰 9
-      - 🇳🇱 荷兰 10
-      - 🇳🇱 荷兰 11
-      - 🇫🇷 法国
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 Pool_🇺🇸US_5483
-      - 🇵🇭 (购买奈飞时使用)菲律宾
-      - 🇪🇺 欧洲 顺丰资源Youtube 4
-      - Pool_🇬🇧GB_2112
-      - https://www.mattkaydiary.com|🇳🇱 NL_4012
-      - https://www.mattkaydiary.com|🇯🇵 JP_3404
-      - "| 4.81Mb"
+      - 🇰🇷 韩国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇹 意大利
-      - 🇪🇸 西班牙
-      - 乌克兰
-      - 乌克兰 2
-      - 乌克兰 3
-      - 乌克兰 4
-      - 顺丰资源Youtube 5
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 18
-      - 顺丰资源Youtube 17
-      - 顺丰资源Youtube 16
-      - 顺丰资源Youtube 13
-      - 顺丰资源Youtube
-      - 塞浦路斯
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 12
+      - 🇷🇴 罗马尼亚
+      - 罗马 顺丰资源Youtube 2
+      - 罗马 顺丰资源Youtube 13
+      - https://www.mattkaydiary.com|🇯🇵 JP_3404
+      - 🇭🇰 香港
+      - 🇯🇵 日本
       - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - 克罗地亚
+      - 🇩🇪 德国
+      - 🇮🇹 意大利
+      - 🇭🇰 香港 3
+      - 🇷🇴 罗马尼亚 2
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇷🇴 罗马尼亚
-      - 罗马 顺丰资源Youtube 8
-      - 罗马 顺丰资源Youtube 7
-      - 罗马 顺丰资源Youtube 6
-      - 罗马 顺丰资源Youtube 4
-      - 罗马 顺丰资源Youtube 3
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 15
-      - 罗马 顺丰资源Youtube 13
-      - 罗马 顺丰资源Youtube 11
-      - 老杨爱分享YouTube频道 9
-      - 老杨爱分享YouTube频道 8
-      - 老杨爱分享YouTube频道 7
-      - 老杨爱分享YouTube频道 6
-      - 老杨爱分享YouTube频道 5
-      - 老杨爱分享YouTube频道 3
-      - 老杨爱分享YouTube频道 21
-      - 老杨爱分享YouTube频道 2
-      - 老杨爱分享YouTube频道
-      - 老杨爱分享YouTube频道 4
-      - 老杨爱分享YouTube频道 10
-      - 老杨爱分享YouTube频道 11
-      - 老杨爱分享YouTube频道 12
-      - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇳🇱 荷兰 3
-      - 🇳🇱 荷兰 4
-      - 🇳🇱 荷兰 5
-      - 🇳🇱 荷兰 6
-      - 🇳🇱 荷兰 7
-      - 🇳🇱 荷兰 8
-      - 🇳🇱 荷兰 9
-      - 🇳🇱 荷兰 10
-      - 🇳🇱 荷兰 11
-      - 🇫🇷 法国
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 Pool_🇺🇸US_5483
-      - 🇵🇭 (购买奈飞时使用)菲律宾
-      - 🇪🇺 欧洲 顺丰资源Youtube 4
-      - Pool_🇬🇧GB_2112
-      - https://www.mattkaydiary.com|🇳🇱 NL_4012
-      - https://www.mattkaydiary.com|🇯🇵 JP_3404
-      - "| 4.81Mb"
+      - 🇰🇷 韩国
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇮🇹 意大利
-      - 🇪🇸 西班牙
-      - 乌克兰
-      - 乌克兰 2
-      - 乌克兰 3
-      - 乌克兰 4
-      - 顺丰资源Youtube 5
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 18
-      - 顺丰资源Youtube 17
-      - 顺丰资源Youtube 16
-      - 顺丰资源Youtube 13
-      - 顺丰资源Youtube
-      - 塞浦路斯
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 12
+      - 🇷🇴 罗马尼亚
+      - 罗马 顺丰资源Youtube 2
+      - 罗马 顺丰资源Youtube 13
+      - https://www.mattkaydiary.com|🇯🇵 JP_3404
+      - 🇭🇰 香港
+      - 🇯🇵 日本
       - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - 克罗地亚
+      - 🇩🇪 德国
+      - 🇮🇹 意大利
+      - 🇭🇰 香港 3
+      - 🇷🇴 罗马尼亚 2
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇷🇴 罗马尼亚
-      - 罗马 顺丰资源Youtube 8
-      - 罗马 顺丰资源Youtube 7
-      - 罗马 顺丰资源Youtube 6
-      - 罗马 顺丰资源Youtube 4
-      - 罗马 顺丰资源Youtube 3
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 15
-      - 罗马 顺丰资源Youtube 13
-      - 罗马 顺丰资源Youtube 11
-      - 老杨爱分享YouTube频道 9
-      - 老杨爱分享YouTube频道 8
-      - 老杨爱分享YouTube频道 7
-      - 老杨爱分享YouTube频道 6
-      - 老杨爱分享YouTube频道 5
-      - 老杨爱分享YouTube频道 3
-      - 老杨爱分享YouTube频道 21
-      - 老杨爱分享YouTube频道 2
-      - 老杨爱分享YouTube频道
-      - 老杨爱分享YouTube频道 4
-      - 老杨爱分享YouTube频道 10
-      - 老杨爱分享YouTube频道 11
-      - 老杨爱分享YouTube频道 12
-      - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇳🇱 荷兰 3
-      - 🇳🇱 荷兰 4
-      - 🇳🇱 荷兰 5
-      - 🇳🇱 荷兰 6
-      - 🇳🇱 荷兰 7
-      - 🇳🇱 荷兰 8
-      - 🇳🇱 荷兰 9
-      - 🇳🇱 荷兰 10
-      - 🇳🇱 荷兰 11
-      - 🇫🇷 法国
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 Pool_🇺🇸US_5483
-      - 🇵🇭 (购买奈飞时使用)菲律宾
-      - 🇪🇺 欧洲 顺丰资源Youtube 4
-      - Pool_🇬🇧GB_2112
-      - https://www.mattkaydiary.com|🇳🇱 NL_4012
-      - https://www.mattkaydiary.com|🇯🇵 JP_3404
-      - "| 4.81Mb"
+      - 🇰🇷 韩国
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇮🇹 意大利
-      - 🇪🇸 西班牙
-      - 乌克兰
-      - 乌克兰 2
-      - 乌克兰 3
-      - 乌克兰 4
-      - 顺丰资源Youtube 5
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 18
-      - 顺丰资源Youtube 17
-      - 顺丰资源Youtube 16
-      - 顺丰资源Youtube 13
-      - 顺丰资源Youtube
-      - 塞浦路斯
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 12
+      - 🇷🇴 罗马尼亚
+      - 罗马 顺丰资源Youtube 2
+      - 罗马 顺丰资源Youtube 13
+      - https://www.mattkaydiary.com|🇯🇵 JP_3404
+      - 🇭🇰 香港
+      - 🇯🇵 日本
       - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - 克罗地亚
+      - 🇩🇪 德国
+      - 🇮🇹 意大利
+      - 🇭🇰 香港 3
+      - 🇷🇴 罗马尼亚 2
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇷🇴 罗马尼亚
-      - 罗马 顺丰资源Youtube 8
-      - 罗马 顺丰资源Youtube 7
-      - 罗马 顺丰资源Youtube 6
-      - 罗马 顺丰资源Youtube 4
-      - 罗马 顺丰资源Youtube 3
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 15
-      - 罗马 顺丰资源Youtube 13
-      - 罗马 顺丰资源Youtube 11
-      - 老杨爱分享YouTube频道 9
-      - 老杨爱分享YouTube频道 8
-      - 老杨爱分享YouTube频道 7
-      - 老杨爱分享YouTube频道 6
-      - 老杨爱分享YouTube频道 5
-      - 老杨爱分享YouTube频道 3
-      - 老杨爱分享YouTube频道 21
-      - 老杨爱分享YouTube频道 2
-      - 老杨爱分享YouTube频道
-      - 老杨爱分享YouTube频道 4
-      - 老杨爱分享YouTube频道 10
-      - 老杨爱分享YouTube频道 11
-      - 老杨爱分享YouTube频道 12
-      - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇳🇱 荷兰 3
-      - 🇳🇱 荷兰 4
-      - 🇳🇱 荷兰 5
-      - 🇳🇱 荷兰 6
-      - 🇳🇱 荷兰 7
-      - 🇳🇱 荷兰 8
-      - 🇳🇱 荷兰 9
-      - 🇳🇱 荷兰 10
-      - 🇳🇱 荷兰 11
-      - 🇫🇷 法国
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 Pool_🇺🇸US_5483
-      - 🇵🇭 (购买奈飞时使用)菲律宾
-      - 🇪🇺 欧洲 顺丰资源Youtube 4
-      - Pool_🇬🇧GB_2112
-      - https://www.mattkaydiary.com|🇳🇱 NL_4012
-      - https://www.mattkaydiary.com|🇯🇵 JP_3404
-      - "| 4.81Mb"
+      - 🇰🇷 韩国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -403,77 +143,25 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇮🇹 意大利
-      - 🇪🇸 西班牙
-      - 乌克兰
-      - 乌克兰 2
-      - 乌克兰 3
-      - 乌克兰 4
-      - 顺丰资源Youtube 5
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 18
-      - 顺丰资源Youtube 17
-      - 顺丰资源Youtube 16
-      - 顺丰资源Youtube 13
-      - 顺丰资源Youtube
-      - 塞浦路斯
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 12
+      - 🇷🇴 罗马尼亚
+      - 罗马 顺丰资源Youtube 2
+      - 罗马 顺丰资源Youtube 13
+      - https://www.mattkaydiary.com|🇯🇵 JP_3404
+      - 🇭🇰 香港
+      - 🇯🇵 日本
       - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - 克罗地亚
+      - 🇩🇪 德国
+      - 🇮🇹 意大利
+      - 🇭🇰 香港 3
+      - 🇷🇴 罗马尼亚 2
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇷🇴 罗马尼亚
-      - 罗马 顺丰资源Youtube 8
-      - 罗马 顺丰资源Youtube 7
-      - 罗马 顺丰资源Youtube 6
-      - 罗马 顺丰资源Youtube 4
-      - 罗马 顺丰资源Youtube 3
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 15
-      - 罗马 顺丰资源Youtube 13
-      - 罗马 顺丰资源Youtube 11
-      - 老杨爱分享YouTube频道 9
-      - 老杨爱分享YouTube频道 8
-      - 老杨爱分享YouTube频道 7
-      - 老杨爱分享YouTube频道 6
-      - 老杨爱分享YouTube频道 5
-      - 老杨爱分享YouTube频道 3
-      - 老杨爱分享YouTube频道 21
-      - 老杨爱分享YouTube频道 2
-      - 老杨爱分享YouTube频道
-      - 老杨爱分享YouTube频道 4
-      - 老杨爱分享YouTube频道 10
-      - 老杨爱分享YouTube频道 11
-      - 老杨爱分享YouTube频道 12
-      - 🇳🇱 荷兰
-      - 🇳🇱 荷兰 2
-      - 🇳🇱 荷兰 3
-      - 🇳🇱 荷兰 4
-      - 🇳🇱 荷兰 5
-      - 🇳🇱 荷兰 6
-      - 🇳🇱 荷兰 7
-      - 🇳🇱 荷兰 8
-      - 🇳🇱 荷兰 9
-      - 🇳🇱 荷兰 10
-      - 🇳🇱 荷兰 11
-      - 🇫🇷 法国
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 Pool_🇺🇸US_5483
-      - 🇵🇭 (购买奈飞时使用)菲律宾
-      - 🇪🇺 欧洲 顺丰资源Youtube 4
-      - Pool_🇬🇧GB_2112
-      - https://www.mattkaydiary.com|🇳🇱 NL_4012
-      - https://www.mattkaydiary.com|🇯🇵 JP_3404
-      - "| 4.81Mb"
+      - 🇰🇷 韩国
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
