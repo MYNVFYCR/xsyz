@@ -5,241 +5,74 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.05高速节点 6, server: 45.130.137.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.05高速节点 81, server: 185.124.240.151, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.05高速节点 95, server: 66.115.154.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: （欢迎订阅晓柒科技YouTube频道）3.05高速节点 97, server: 66.115.177.141, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 003013151 14, server: 217.138.207.243, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 003013151 7, server: 217.138.207.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 003013151 8, server: 84.17.35.108, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 143.244.56.226:40093, server: 143.244.56.226, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 4, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇨🇦 加拿大, server: 208.78.41.198, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 西班牙 马德里（感谢关注youtube：8度科技）, server: 82.102.26.237, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇫🇷 法国 2, server: 146.59.3.33, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV}
-  - {name: 🇮🇹 意大利 4, server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: "p5.22332e.com\x8dproxypoolss.herokuapp.com\r��originrc4-md5passfw2xs4e!", server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 23.82.11.49:50168, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇳🇱 荷兰, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 7, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇺🇸 美国 9, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 美国 10, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 154.17.5.184:18331, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 美国 8, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇸 美国 11, server: 164.90.234.85, port: 18492, type: ss, cipher: chacha20-ietf-poly1305, password: fdRAl4scWDTg}
+  - {name: 🇺🇸 美国 13, server: 167.99.192.30, port: 3567, type: ss, cipher: chacha20-ietf-poly1305, password: HGBdOKdcIer5}
   - {name: 🇮🇹 意大利 7, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 10, server: 82.102.26.117, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 14, server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 7, server: 82.102.26.117, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
   - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 美国 14, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 30, server: 84.17.35.118, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）, server: 84.17.35.118, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 16, server: 84.17.35.118, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7, server: 84.17.35.118, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 9, server: 84.17.35.118, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 埃及（感谢关注youtube：8度科技） 4, server: 185.108.105.97, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 埃及（感谢关注youtube：8度科技） 6, server: 185.108.105.97, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 埃及（感谢关注youtube：8度科技） 7, server: 185.108.105.97, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 埃及（感谢关注youtube：8度科技） 8, server: 185.108.105.97, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 克罗地亚, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 207.244.67.149:33998, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 207.244.67.149:50168, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇨🇦 加拿大, server: 138.197.174.245, port: 56443, type: ss, cipher: chacha20-ietf-poly1305, password: yuMqkGIx6Ia0}
+  - {name: 185.44.76.188:31764, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 154.17.2.95:18334, server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇷🇴 罗马尼亚, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 154.17.2.117:18333, server: 154.17.2.117, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: 2SYSIDnBqT5eCl736xlD4yODaXaSF9EeNp3OZcpjyC8ARYwA0zgC83aKxFZRu3}
+  - {name: 154.17.1.251:18334, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 罗马 顺丰资源Youtube 6, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
   - {name: 🇪🇺 欧洲🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 顺丰资源YouTube 12, server: 91.206.168.66, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 顺丰资源YouTube 12 4, server: 45.43.19.76, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 顺丰资源YouTube 15, server: 199.58.187.69, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 顺丰资源YouTube 15 2, server: 196.244.191.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 顺丰资源YouTube 2 2, server: 185.180.14.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 顺丰资源YouTube 20 3, server: 195.158.249.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 顺丰资源YouTube 21, server: 195.158.249.36, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 顺丰资源YouTube 6 3, server: 37.120.212.141, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 178, server: 167.88.61.2, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 218, server: 162.251.61.221, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 148, server: 37.120.147.230, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 152, server: 37.120.147.230, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 188, server: 38.68.134.196, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 264, server: 66.55.148.42, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇮🇪 github.com/freefq - 爱尔兰 183, server: 185.108.128.183, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 16, server: 37.120.221.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 15, server: 37.120.212.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 282, server: 45.89.173.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 213, server: 66.115.175.37, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 github.com/freefq - 美国 114, server: 143.244.57.114, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 github.com/freefq - 美国 110, server: 143.244.57.110, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 256, server: 143.244.57.112, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 229, server: 154.16.169.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇪🇺 github.com/freefq - 欧洲 7, server: 154.16.169.7, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 248, server: 172.93.153.150, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 35, server: 173.237.207.21, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 25, server: 178.175.128.237, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 151, server: 184.170.243.211, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇪 github.com/freefq - 德国 101, server: 185.93.180.101, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: github.com/freefq - 捷克 151, server: 185.152.64.151, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚 34, server: 195.47.194.34, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 204, server: 199.10.64.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 1, server: 103.108.117.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 189, server: 104.200.131.249, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 196, server: 86.106.136.69, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 242, server: 207.244.84.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 74, server: 209.216.92.217, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 271, server: 209.216.92.210, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇰 github.com/freefq - 丹麦 21, server: 37.120.145.21, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 183, server: 45.12.222.245, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 235, server: 45.43.19.76, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 270, server: 45.43.19.92, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 215, server: 66.115.154.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 114, server: 61.14.210.244, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 55, server: 2.58.241.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 120, server: 103.249.31.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 62, server: 2.58.242.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇮🇳 github.com/freefq - 印度 147, server: 165.231.253.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 117, server: 103.249.31.24, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 119, server: 61.14.210.244, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 79, server: 2.58.241.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 246, server: 45.43.19.92, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 244, server: 173.208.202.61, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 275, server: 5.187.49.187, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 285, server: 103.108.117.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 64, server: 2.58.241.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 123, server: 27.255.77.195, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 65, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 54, server: 2.58.241.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 14, server: 5.187.49.189, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 127, server: 61.14.210.242, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 58, server: 2.58.242.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 146, server: 184.170.243.195, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 93, server: 2.58.242.157, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 276, server: 192.111.134.220, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 191, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 69, server: 45.89.173.203, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 251, server: 172.93.153.146, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: github.com/freefq - 葡萄牙 101, server: 82.102.16.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: github.com/freefq - 卢森堡 96, server: 185.153.151.96, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 217, server: 154.16.168.184, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 283, server: 66.115.177.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇹 github.com/freefq - 意大利 18, server: 212.102.48.18, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 265, server: 45.43.19.90, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: github.com/freefq - 捷克 151 2, server: 185.152.64.151, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 245, server: 192.154.253.67, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚 36, server: 195.47.194.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 205, server: 104.200.131.170, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 274, server: 107.174.20.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 github.com/freefq - 美国伊利诺伊州芝加哥CDN77节点175, server: 89.187.182.175, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 18, server: 37.120.194.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 220, server: 45.43.14.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 257, server: 154.16.169.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: github.com/freefq - 捷克 178, server: 185.152.64.178, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 278, server: 192.40.59.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚 149, server: 37.120.212.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 227, server: 45.87.212.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 181, server: 45.83.90.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 8, server: 5.187.53.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 193, server: 66.115.147.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 214, server: 66.115.154.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 2, server: 66.115.175.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 10, server: 188.92.78.150, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇬🇧 github.com/freefq - 英国 15, server: 185.188.61.15, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 github.com/freefq - 香港CDN77节点185, server: 84.17.57.185, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚 147, server: 37.120.212.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 223, server: 45.43.19.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 208, server: 66.115.147.67, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 230, server: 185.76.9.41, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 48, server: 191.96.73.226, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇪🇸 github.com/freefq - 西班牙 69, server: 196.196.150.69, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 272, server: 107.174.20.132, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚 171, server: 37.120.196.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 197, server: 66.115.147.74, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 247, server: 148.72.169.213, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 277, server: 173.237.207.13, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 210, server: 199.10.64.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 262, server: 45.43.19.68, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 249, server: 165.231.163.19, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 269, server: 45.43.19.82, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 github.com/freefq - 香港CDN77节点148, server: 84.17.57.148, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 216, server: 45.43.19.74, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 243, server: 172.93.153.150, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 268, server: 107.152.101.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: github.com/freefq - 捷克 147, server: 185.180.14.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 225, server: 193.9.112.195, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 209, server: 199.10.64.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 203, server: 104.200.131.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 228, server: 37.120.196.59, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 13, server: 45.12.221.163, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 287, server: 5.253.206.227, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: a83679f.gd.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.gd.gladns.com}}
-  - {name: 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: a83679f.ga.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.ga.gladns.com}}
-  - {name: 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: a83679f.gd.gladns.com, port: 3204, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.gd.gladns.com}}
-  - {name: 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3, server: a83679f.ga.gladns.com, port: 3204, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.ga.gladns.com}}
-  - {name: 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4, server: blx.lt.airnode.xyz, port: 14021, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: blx.lt.airnode.xyz, port: 14039, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blx, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3, server: blx.lt.airnode.xyz, port: 14038, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blx, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: blx.lt.airnode.xyz, port: 14013, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: blx.lt.airnode.xyz, port: 14014, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3, server: cm-jm.okvpn.cc, port: 20015, type: vmess, uuid: 18b61e56-ecc2-41fb-b7f0-a13507d59487, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: euserv13p.ezddns.tk, port: 80, type: vmess, uuid: ced80260-a5b1-427b-db09-5a46b69ac9e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv13p.ezddns.tk}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3, server: euserv12p.ezddns.tk, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4, server: euserv7p.ezddns.tk, port: 80, type: vmess, uuid: 0b5aeb7c-e477-484f-8999-61772c43b43c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv7p.ezddns.tk}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 5, server: blx.lt.airnode.xyz, port: 14008, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 6, server: euserv11p.ezddns.tk, port: 80, type: vmess, uuid: ffab7ea6-596d-4f88-daa5-4ec177f314a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.rar, ws-headers: {Host: euserv11p.ezddns.tk}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 7, server: blx.lt.airnode.xyz, port: 14011, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 8, server: blx.lt.airnode.xyz, port: 14009, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 9, server: 23.225.28.174, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 10, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 11, server: 135.125.207.34, port: 80, type: vmess, uuid: b42c2cbd-9aa7-42f6-9239-6055906bee3b, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
-  - {name: 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: blx.lt.airnode.xyz, port: 14007, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 46.182.107.151, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06321530.xyz}}
-  - {name: 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-96dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
-  - {name: 🇫🇷 法国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: bimbel.ruangguru.com, port: 80, type: vmess, uuid: b22b990f-b6dd-4b57-a0e1-ee3f829d413f, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshkit, ws-headers: {Host: eu-sshkit.v2-ray.cf}}
-  - {name: 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 54.223.185.171, port: 8003, type: vmess, uuid: e854d8f1-f0f7-40fe-a77d-345cf7a78e05, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x, server: blx.lt.airnode.xyz, port: 14006, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x, server: us2.jjhost.net, port: 443, type: vmess, uuid: 7205478a-7a40-407a-8453-5b9e1f5bcf57, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /v2s, ws-headers: {Host: us2.jjhost.net}}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8, server: euserv9p.ezddns.tk, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: anycast02.v2cy.com, port: 80, type: vmess, uuid: 586fb889-61ee-42d9-b374-c1440b0a0664, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dn-o0f42gbt.cn2.run.gxu.edu.cn}}
-  - {name: 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x, server: ac2077.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2077.herokuapp.com}}
-  - {name: 🇳🇱 荷兰(欢迎订阅Youtube破解资源君), server: 51.15.113.164, port: 80, type: vmess, uuid: 7512e0f4-05b3-4b97-8972-d3fea44cf452, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 51.15.113.164}}
-  - {name: 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2, server: blx.lt.airnode.xyz, port: 14016, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇯🇵 日本(欢迎订阅Youtube破解资源君), server: blx.lt.airnode.xyz, port: 14017, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇯🇵 日本, server: cm-jm.okvpn.cc, port: 20015, type: vmess, uuid: 18b61e56-ecc2-41fb-b7f0-a13507d59487, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 9, server: 54.223.185.171, port: 8003, type: vmess, uuid: e854d8f1-f0f7-40fe-a77d-345cf7a78e05, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: anycast01.v2cy.com, port: 80, type: vmess, uuid: 586fb889-61ee-42d9-b374-c1440b0a0664, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dn-pd2hiel8.cn2.run.gxu.edu.cn}}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度, server: ind01.xqkj.cloud, port: 1051, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ind01.xqkj.cloud}}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度 2, server: ind02.xqkj.cloud, port: 1052, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ind02.xqkj.cloud}}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度 3, server: ind05.xqkj.cloud, port: 1055, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ind05.xqkj.cloud}}
-  - {name: 🇸🇬 YouTube晓柒科技分享：新加坡, server: sg01.xqkj.cloud, port: 1081, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sg01.xqkj.cloud}}
-  - {name: 🇸🇬 YouTube晓柒科技分享：新加坡 2, server: sg02.xqkj.cloud, port: 1082, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sg02.xqkj.cloud}}
-  - {name: 🇸🇬 YouTube晓柒科技分享：新加坡 3, server: sg03.xqkj.cloud, port: 1083, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sg03.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国, server: us01.xqkj.cloud, port: 1031, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us01.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 2, server: us17.xqkj.cloud, port: 1047, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us17.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 3, server: us03.xqkj.cloud, port: 1033, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us03.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 4, server: us04.xqkj.cloud, port: 1034, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us04.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 5, server: us05.xqkj.cloud, port: 1035, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us05.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 6, server: us08.xqkj.cloud, port: 1038, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us08.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 7, server: us09.xqkj.cloud, port: 1039, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us09.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 8, server: us15.xqkj.cloud, port: 1045, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us15.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 9, server: us16.xqkj.cloud, port: 1046, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us16.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 10, server: us18.xqkj.cloud, port: 1048, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us18.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 11, server: us19.xqkj.cloud, port: 1049, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us19.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 12, server: us11.xqkj.cloud, port: 1041, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us11.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 13, server: us12.xqkj.cloud, port: 1042, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us12.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 14, server: us13.xqkj.cloud, port: 1043, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us13.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 15, server: us07.xqkj.cloud, port: 1037, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us07.xqkj.cloud}}
-  - {name: 🇬🇧 YouTube晓柒科技分享：伦敦, server: ld01.xqkj.cloud, port: 1061, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ld01.xqkj.cloud}}
-  - {name: 🇬🇧 YouTube晓柒科技分享：伦敦 2, server: ld03.xqkj.cloud, port: 1063, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ld03.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大, server: dld01.xqkj.cloud, port: 1071, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld01.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 2, server: dld02.xqkj.cloud, port: 1072, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld02.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 3, server: dld03.xqkj.cloud, port: 1073, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld03.xqkj.cloud}}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰, server: hl01.xqkj.cloud, port: 1091, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hl01.xqkj.cloud}}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰 2, server: hl02.xqkj.cloud, port: 1092, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hl02.xqkj.cloud}}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰 3, server: hl03.xqkj.cloud, port: 1093, type: vmess, uuid: 21375aab-747d-46ec-9f07-e9d1d9727d35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hl03.xqkj.cloud}}
-  - {name: xf, server: 172.67.157.82, port: 443, type: vmess, uuid: 4f672ab6-25e3-49e8-951a-d87b1fa75467, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ce04/, ws-headers: {Host: vir.laoban666.xyz}}
-  - {name: xf 2, server: 1.1.1.100, port: 443, type: vmess, uuid: 4f672ab6-25e3-49e8-951a-d87b1fa75467, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ce04/, ws-headers: {Host: vir.laoban666.xyz}}
-  - {name: xf 3, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: xf 4, server: 104.28.23.254, port: 443, type: vmess, uuid: 4f672ab6-25e3-49e8-951a-d87b1fa75467, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ce04/, ws-headers: {Host: vir.laoban666.xyz}}
-  - {name: xf 5, server: 104.28.22.254, port: 443, type: vmess, uuid: 4f672ab6-25e3-49e8-951a-d87b1fa75467, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ce04/, ws-headers: {Host: vir.laoban666.xyz}}
-  - {name: 🇺🇸 US_1758, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 github.com/freefq - 美国惠普HP 1, server: v2.linn.ink, port: 30070, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国  2, server: 75.2.68.102, port: 80, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: en.tgchannels.org/channel/vpnpool}}
-  - {name: 🇷🇺 github.com/freefq - 俄罗斯  17, server: 80.85.156.31, port: 40331, type: vmess, uuid: f3dc16e3-715c-4839-abd3-8e0c6df46064, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
-  - {name: github.com/freefq - 波兰  18, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 1, server: ssr1.ssrsub.one, port: 47481, type: ss, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub}
-  - {name: 🇬🇧 英国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: blx.lt.airnode.xyz, port: 14035, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
-  - {name: 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: blx.lt.airnode.xyz, port: 14034, type: vmess, uuid: 26015519-8ecb-3473-81f2-0e2bee1c0963, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ftq, ws-headers: {Host: blx.lt.airnode.xyz}}
+  - {name: 154.17.2.135:18333, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 154.17.1.245:18334, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 顺丰资源Youtube 16, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 罗马 顺丰资源Youtube 8, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 罗马 顺丰资源Youtube 7, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 罗马 顺丰资源Youtube 2, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 罗马 顺丰资源Youtube 15, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 198.147.22.87:33998, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 15, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 16, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 19, server: 154.17.2.31, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 23, server: 154.17.2.211, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 32, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 频道, server: 154.17.2.160, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: w, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: w123, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 27, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 塞浦路斯, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 罗马(欢迎订阅Youtube破解资源君), server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇸🇬 节点更新https://bit.ly/3h18eE7 15, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 36, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 8, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 9, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 13, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 37, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 38, server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 10, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
+  - {name: 🇫🇷 法国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: bimbel.ruangguru.com, port: 80, type: vmess, uuid: b22b990f-b6dd-4b57-a0e1-ee3f829d413f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sshkit, ws-headers: {Host: eu-sshkit.v2-ray.cf}}
+  - {name: 🇨🇳 台湾 ☆☆ 01 ☆NTT☆   1.2x, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: euserv13p.ezddns.tk, port: 80, type: vmess, uuid: ced80260-a5b1-427b-db09-5a46b69ac9e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv13p.ezddns.tk}}
+  - {name: 🇺🇸 美国, server: us18.xqkj.cloud, port: 1048, type: vmess, uuid: 5f666e1f-5e11-420e-b171-b46699d8249b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us18.xqkj.cloud}}
+  - {name: 🇸🇬 新加坡02 | 中转AZ x0.5, server: relay.xxl123.fun, port: 10010, type: vmess, uuid: 2250f445-525f-4197-9154-dd52704de1ce, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
+  - {name: 🇸🇬 新加坡04 | 中转AZ x0.5, server: relay.xxl123.fun, port: 10008, type: vmess, uuid: 2250f445-525f-4197-9154-dd52704de1ce, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: relay.xxl123.fun}}
+  - {name: 🇺🇸 美国 2, server: us07.xqkj.cloud, port: 1037, type: vmess, uuid: 5f666e1f-5e11-420e-b171-b46699d8249b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us07.xqkj.cloud}}
+  - {name: 🇺🇸 美国02 | 中转AZ | 流媒体, server: relay.xxl123.fun, port: 10011, type: vmess, uuid: 2250f445-525f-4197-9154-dd52704de1ce, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: f932c3d98981b.download.microsoft.com}}
+  - {name: 🇺🇸 美国03 | 中转AZ | 流媒体, server: hk3.xxl123.fun, port: 10006, type: vmess, uuid: 2250f445-525f-4197-9154-dd52704de1ce, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: f932c3d98981b.download.microsoft.com}}
+  - {name: 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5, server: relay.xxl123.fun, port: 10004, type: vmess, uuid: 2250f445-525f-4197-9154-dd52704de1ce, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 34, server: 35.167.66.20, port: 21805, type: vmess, uuid: 14552e4a-6eba-46f1-8b83-a59f4df3b644, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 35.167.66.20}}
+  - {name: 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇸🇬 新加坡03 | 中转AZ x0.5, server: relay.xxl123.fun, port: 10012, type: vmess, uuid: 2250f445-525f-4197-9154-dd52704de1ce, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: f932c3d98981b.download.microsoft.com}}
+  - {name: 关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 165.154.234.152, port: 50680, type: vmess, uuid: 7d45212a-d98f-4b98-9b44-bbe81cb72acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇹 意大利 ☆☆ 01 ☆NTT☆   1.2x, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -248,962 +81,294 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 81
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 95
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 97
-      - 003013151 14
-      - 003013151 7
-      - 003013151 8
-      - 143.244.56.226:40093
-      - 4
-      - 🇨🇦 加拿大
-      - 🇩🇪 西班牙 马德里（感谢关注youtube：8度科技）
-      - 🇫🇷 法国 2
-      - 🇮🇹 意大利 4
+      - "p5.22332e.com\x8dproxypoolss.herokuapp.com\r��originrc4-md5passfw2xs4e!"
+      - 23.82.11.49:50168
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国 10
+      - 154.17.5.184:18331
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 13
       - 🇮🇹 意大利 7
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 10
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 14
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 16
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 9
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 埃及（感谢关注youtube：8度科技） 4
-      - 埃及（感谢关注youtube：8度科技） 6
-      - 埃及（感谢关注youtube：8度科技） 7
-      - 埃及（感谢关注youtube：8度科技） 8
       - 克罗地亚
+      - 207.244.67.149:33998
+      - 207.244.67.149:50168
+      - 🇨🇦 加拿大
+      - 185.44.76.188:31764
+      - 154.17.2.95:18334
+      - 🇷🇴 罗马尼亚
+      - 154.17.2.117:18333
+      - 154.17.1.251:18334
+      - 罗马 顺丰资源Youtube 6
       - 🇪🇺 欧洲🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 顺丰资源YouTube 12
-      - 顺丰资源YouTube 12 4
-      - 顺丰资源YouTube 15
-      - 顺丰资源YouTube 15 2
-      - 顺丰资源YouTube 2 2
-      - 顺丰资源YouTube 20 3
-      - 顺丰资源YouTube 21
-      - 顺丰资源YouTube 6 3
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 178
-      - 218
-      - 148
-      - 152
-      - 188
-      - 264
-      - 🇮🇪 github.com/freefq - 爱尔兰 183
-      - 16
-      - 15
-      - 282
-      - 213
-      - 🇺🇸 github.com/freefq - 美国 114
-      - 🇺🇸 github.com/freefq - 美国 110
-      - 256
-      - 229
-      - 🇪🇺 github.com/freefq - 欧洲 7
-      - 248
-      - 35
-      - 25
-      - 151
-      - 🇩🇪 github.com/freefq - 德国 101
-      - github.com/freefq - 捷克 151
-      - 🇷🇴 github.com/freefq - 罗马尼亚 34
-      - 204
-      - 1
-      - 189
-      - 196
-      - 242
-      - 74
-      - 271
-      - 🇩🇰 github.com/freefq - 丹麦 21
-      - 183
-      - 235
-      - 270
-      - 215
-      - 114
-      - 55
-      - 120
-      - 62
-      - 🇮🇳 github.com/freefq - 印度 147
-      - 117
-      - 119
-      - 79
-      - 246
-      - 244
-      - 275
-      - 285
-      - 64
-      - 123
-      - 65
-      - 54
-      - 14
-      - 127
-      - 58
-      - 146
-      - 93
-      - 276
-      - 191
-      - 69
-      - 251
-      - github.com/freefq - 葡萄牙 101
-      - github.com/freefq - 卢森堡 96
-      - 217
-      - 283
-      - 🇮🇹 github.com/freefq - 意大利 18
-      - 265
-      - github.com/freefq - 捷克 151 2
-      - 245
-      - 🇷🇴 github.com/freefq - 罗马尼亚 36
-      - 205
-      - 274
-      - 🇺🇸 github.com/freefq - 美国伊利诺伊州芝加哥CDN77节点175
-      - 18
-      - 220
-      - 257
-      - github.com/freefq - 捷克 178
-      - 278
-      - 🇷🇴 github.com/freefq - 罗马尼亚 149
-      - 227
-      - 181
-      - 8
-      - 193
-      - 214
-      - 2
-      - 10
-      - 🇬🇧 github.com/freefq - 英国 15
-      - 🇭🇰 github.com/freefq - 香港CDN77节点185
-      - 🇷🇴 github.com/freefq - 罗马尼亚 147
-      - 223
-      - 208
-      - 230
-      - 48
-      - 🇪🇸 github.com/freefq - 西班牙 69
-      - 272
-      - 🇷🇴 github.com/freefq - 罗马尼亚 171
-      - 197
-      - 247
-      - 277
-      - 210
-      - 262
-      - 249
-      - 269
-      - 🇭🇰 github.com/freefq - 香港CDN77节点148
-      - 216
-      - 243
-      - 268
-      - github.com/freefq - 捷克 147
-      - 225
-      - 209
-      - 203
-      - 228
-      - 13
-      - 287
-      - 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 6
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 7
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 8
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 9
+      - 154.17.2.135:18333
+      - 154.17.1.245:18334
+      - 顺丰资源Youtube 16
+      - 罗马 顺丰资源Youtube 8
+      - 罗马 顺丰资源Youtube 7
+      - 罗马 顺丰资源Youtube 2
+      - 罗马 顺丰资源Youtube 15
+      - 198.147.22.87:33998
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 19
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 23
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 32
+      - 频道
+      - w
+      - w123
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 27
+      - 塞浦路斯
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3h18eE7 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 37
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 38
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 10
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 11
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
       - 🇫🇷 法国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
+      - 🇨🇳 台湾 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x
-      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 9
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇸🇬 YouTube晓柒科技分享：新加坡
-      - 🇸🇬 YouTube晓柒科技分享：新加坡 2
-      - 🇸🇬 YouTube晓柒科技分享：新加坡 3
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - xf
-      - xf 2
-      - xf 3
-      - xf 4
-      - xf 5
-      - 🇺🇸 US_1758
-      - 🇺🇸 github.com/freefq - 美国惠普HP 1
-      - 🇺🇸 github.com/freefq - 美国  2
-      - 🇷🇺 github.com/freefq - 俄罗斯  17
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
-      - github.com/freefq - 波兰  18
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 1
-      - 🇬🇧 英国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国
+      - 🇸🇬 新加坡02 | 中转AZ x0.5
+      - 🇸🇬 新加坡04 | 中转AZ x0.5
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国02 | 中转AZ | 流媒体
+      - 🇺🇸 美国03 | 中转AZ | 流媒体
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 34
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 新加坡03 | 中转AZ x0.5
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇮🇹 意大利 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 81
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 95
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 97
-      - 003013151 14
-      - 003013151 7
-      - 003013151 8
-      - 143.244.56.226:40093
-      - 4
-      - 🇨🇦 加拿大
-      - 🇩🇪 西班牙 马德里（感谢关注youtube：8度科技）
-      - 🇫🇷 法国 2
-      - 🇮🇹 意大利 4
+      - "p5.22332e.com\x8dproxypoolss.herokuapp.com\r��originrc4-md5passfw2xs4e!"
+      - 23.82.11.49:50168
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国 10
+      - 154.17.5.184:18331
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 13
       - 🇮🇹 意大利 7
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 10
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 14
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 16
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 9
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 埃及（感谢关注youtube：8度科技） 4
-      - 埃及（感谢关注youtube：8度科技） 6
-      - 埃及（感谢关注youtube：8度科技） 7
-      - 埃及（感谢关注youtube：8度科技） 8
       - 克罗地亚
+      - 207.244.67.149:33998
+      - 207.244.67.149:50168
+      - 🇨🇦 加拿大
+      - 185.44.76.188:31764
+      - 154.17.2.95:18334
+      - 🇷🇴 罗马尼亚
+      - 154.17.2.117:18333
+      - 154.17.1.251:18334
+      - 罗马 顺丰资源Youtube 6
       - 🇪🇺 欧洲🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 顺丰资源YouTube 12
-      - 顺丰资源YouTube 12 4
-      - 顺丰资源YouTube 15
-      - 顺丰资源YouTube 15 2
-      - 顺丰资源YouTube 2 2
-      - 顺丰资源YouTube 20 3
-      - 顺丰资源YouTube 21
-      - 顺丰资源YouTube 6 3
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 178
-      - 218
-      - 148
-      - 152
-      - 188
-      - 264
-      - 🇮🇪 github.com/freefq - 爱尔兰 183
-      - 16
-      - 15
-      - 282
-      - 213
-      - 🇺🇸 github.com/freefq - 美国 114
-      - 🇺🇸 github.com/freefq - 美国 110
-      - 256
-      - 229
-      - 🇪🇺 github.com/freefq - 欧洲 7
-      - 248
-      - 35
-      - 25
-      - 151
-      - 🇩🇪 github.com/freefq - 德国 101
-      - github.com/freefq - 捷克 151
-      - 🇷🇴 github.com/freefq - 罗马尼亚 34
-      - 204
-      - 1
-      - 189
-      - 196
-      - 242
-      - 74
-      - 271
-      - 🇩🇰 github.com/freefq - 丹麦 21
-      - 183
-      - 235
-      - 270
-      - 215
-      - 114
-      - 55
-      - 120
-      - 62
-      - 🇮🇳 github.com/freefq - 印度 147
-      - 117
-      - 119
-      - 79
-      - 246
-      - 244
-      - 275
-      - 285
-      - 64
-      - 123
-      - 65
-      - 54
-      - 14
-      - 127
-      - 58
-      - 146
-      - 93
-      - 276
-      - 191
-      - 69
-      - 251
-      - github.com/freefq - 葡萄牙 101
-      - github.com/freefq - 卢森堡 96
-      - 217
-      - 283
-      - 🇮🇹 github.com/freefq - 意大利 18
-      - 265
-      - github.com/freefq - 捷克 151 2
-      - 245
-      - 🇷🇴 github.com/freefq - 罗马尼亚 36
-      - 205
-      - 274
-      - 🇺🇸 github.com/freefq - 美国伊利诺伊州芝加哥CDN77节点175
-      - 18
-      - 220
-      - 257
-      - github.com/freefq - 捷克 178
-      - 278
-      - 🇷🇴 github.com/freefq - 罗马尼亚 149
-      - 227
-      - 181
-      - 8
-      - 193
-      - 214
-      - 2
-      - 10
-      - 🇬🇧 github.com/freefq - 英国 15
-      - 🇭🇰 github.com/freefq - 香港CDN77节点185
-      - 🇷🇴 github.com/freefq - 罗马尼亚 147
-      - 223
-      - 208
-      - 230
-      - 48
-      - 🇪🇸 github.com/freefq - 西班牙 69
-      - 272
-      - 🇷🇴 github.com/freefq - 罗马尼亚 171
-      - 197
-      - 247
-      - 277
-      - 210
-      - 262
-      - 249
-      - 269
-      - 🇭🇰 github.com/freefq - 香港CDN77节点148
-      - 216
-      - 243
-      - 268
-      - github.com/freefq - 捷克 147
-      - 225
-      - 209
-      - 203
-      - 228
-      - 13
-      - 287
-      - 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 6
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 7
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 8
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 9
+      - 154.17.2.135:18333
+      - 154.17.1.245:18334
+      - 顺丰资源Youtube 16
+      - 罗马 顺丰资源Youtube 8
+      - 罗马 顺丰资源Youtube 7
+      - 罗马 顺丰资源Youtube 2
+      - 罗马 顺丰资源Youtube 15
+      - 198.147.22.87:33998
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 19
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 23
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 32
+      - 频道
+      - w
+      - w123
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 27
+      - 塞浦路斯
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3h18eE7 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 37
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 38
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 10
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 11
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
       - 🇫🇷 法国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
+      - 🇨🇳 台湾 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x
-      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 9
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇸🇬 YouTube晓柒科技分享：新加坡
-      - 🇸🇬 YouTube晓柒科技分享：新加坡 2
-      - 🇸🇬 YouTube晓柒科技分享：新加坡 3
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - xf
-      - xf 2
-      - xf 3
-      - xf 4
-      - xf 5
-      - 🇺🇸 US_1758
-      - 🇺🇸 github.com/freefq - 美国惠普HP 1
-      - 🇺🇸 github.com/freefq - 美国  2
-      - 🇷🇺 github.com/freefq - 俄罗斯  17
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
-      - github.com/freefq - 波兰  18
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 1
-      - 🇬🇧 英国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国
+      - 🇸🇬 新加坡02 | 中转AZ x0.5
+      - 🇸🇬 新加坡04 | 中转AZ x0.5
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国02 | 中转AZ | 流媒体
+      - 🇺🇸 美国03 | 中转AZ | 流媒体
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 34
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 新加坡03 | 中转AZ x0.5
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇮🇹 意大利 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 81
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 95
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 97
-      - 003013151 14
-      - 003013151 7
-      - 003013151 8
-      - 143.244.56.226:40093
-      - 4
-      - 🇨🇦 加拿大
-      - 🇩🇪 西班牙 马德里（感谢关注youtube：8度科技）
-      - 🇫🇷 法国 2
-      - 🇮🇹 意大利 4
+      - "p5.22332e.com\x8dproxypoolss.herokuapp.com\r��originrc4-md5passfw2xs4e!"
+      - 23.82.11.49:50168
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国 10
+      - 154.17.5.184:18331
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 13
       - 🇮🇹 意大利 7
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 10
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 14
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 16
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 9
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 埃及（感谢关注youtube：8度科技） 4
-      - 埃及（感谢关注youtube：8度科技） 6
-      - 埃及（感谢关注youtube：8度科技） 7
-      - 埃及（感谢关注youtube：8度科技） 8
       - 克罗地亚
+      - 207.244.67.149:33998
+      - 207.244.67.149:50168
+      - 🇨🇦 加拿大
+      - 185.44.76.188:31764
+      - 154.17.2.95:18334
+      - 🇷🇴 罗马尼亚
+      - 154.17.2.117:18333
+      - 154.17.1.251:18334
+      - 罗马 顺丰资源Youtube 6
       - 🇪🇺 欧洲🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 顺丰资源YouTube 12
-      - 顺丰资源YouTube 12 4
-      - 顺丰资源YouTube 15
-      - 顺丰资源YouTube 15 2
-      - 顺丰资源YouTube 2 2
-      - 顺丰资源YouTube 20 3
-      - 顺丰资源YouTube 21
-      - 顺丰资源YouTube 6 3
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 178
-      - 218
-      - 148
-      - 152
-      - 188
-      - 264
-      - 🇮🇪 github.com/freefq - 爱尔兰 183
-      - 16
-      - 15
-      - 282
-      - 213
-      - 🇺🇸 github.com/freefq - 美国 114
-      - 🇺🇸 github.com/freefq - 美国 110
-      - 256
-      - 229
-      - 🇪🇺 github.com/freefq - 欧洲 7
-      - 248
-      - 35
-      - 25
-      - 151
-      - 🇩🇪 github.com/freefq - 德国 101
-      - github.com/freefq - 捷克 151
-      - 🇷🇴 github.com/freefq - 罗马尼亚 34
-      - 204
-      - 1
-      - 189
-      - 196
-      - 242
-      - 74
-      - 271
-      - 🇩🇰 github.com/freefq - 丹麦 21
-      - 183
-      - 235
-      - 270
-      - 215
-      - 114
-      - 55
-      - 120
-      - 62
-      - 🇮🇳 github.com/freefq - 印度 147
-      - 117
-      - 119
-      - 79
-      - 246
-      - 244
-      - 275
-      - 285
-      - 64
-      - 123
-      - 65
-      - 54
-      - 14
-      - 127
-      - 58
-      - 146
-      - 93
-      - 276
-      - 191
-      - 69
-      - 251
-      - github.com/freefq - 葡萄牙 101
-      - github.com/freefq - 卢森堡 96
-      - 217
-      - 283
-      - 🇮🇹 github.com/freefq - 意大利 18
-      - 265
-      - github.com/freefq - 捷克 151 2
-      - 245
-      - 🇷🇴 github.com/freefq - 罗马尼亚 36
-      - 205
-      - 274
-      - 🇺🇸 github.com/freefq - 美国伊利诺伊州芝加哥CDN77节点175
-      - 18
-      - 220
-      - 257
-      - github.com/freefq - 捷克 178
-      - 278
-      - 🇷🇴 github.com/freefq - 罗马尼亚 149
-      - 227
-      - 181
-      - 8
-      - 193
-      - 214
-      - 2
-      - 10
-      - 🇬🇧 github.com/freefq - 英国 15
-      - 🇭🇰 github.com/freefq - 香港CDN77节点185
-      - 🇷🇴 github.com/freefq - 罗马尼亚 147
-      - 223
-      - 208
-      - 230
-      - 48
-      - 🇪🇸 github.com/freefq - 西班牙 69
-      - 272
-      - 🇷🇴 github.com/freefq - 罗马尼亚 171
-      - 197
-      - 247
-      - 277
-      - 210
-      - 262
-      - 249
-      - 269
-      - 🇭🇰 github.com/freefq - 香港CDN77节点148
-      - 216
-      - 243
-      - 268
-      - github.com/freefq - 捷克 147
-      - 225
-      - 209
-      - 203
-      - 228
-      - 13
-      - 287
-      - 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 6
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 7
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 8
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 9
+      - 154.17.2.135:18333
+      - 154.17.1.245:18334
+      - 顺丰资源Youtube 16
+      - 罗马 顺丰资源Youtube 8
+      - 罗马 顺丰资源Youtube 7
+      - 罗马 顺丰资源Youtube 2
+      - 罗马 顺丰资源Youtube 15
+      - 198.147.22.87:33998
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 19
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 23
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 32
+      - 频道
+      - w
+      - w123
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 27
+      - 塞浦路斯
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3h18eE7 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 37
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 38
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 10
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 11
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
       - 🇫🇷 法国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
+      - 🇨🇳 台湾 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x
-      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 9
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇸🇬 YouTube晓柒科技分享：新加坡
-      - 🇸🇬 YouTube晓柒科技分享：新加坡 2
-      - 🇸🇬 YouTube晓柒科技分享：新加坡 3
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - xf
-      - xf 2
-      - xf 3
-      - xf 4
-      - xf 5
-      - 🇺🇸 US_1758
-      - 🇺🇸 github.com/freefq - 美国惠普HP 1
-      - 🇺🇸 github.com/freefq - 美国  2
-      - 🇷🇺 github.com/freefq - 俄罗斯  17
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
-      - github.com/freefq - 波兰  18
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 1
-      - 🇬🇧 英国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国
+      - 🇸🇬 新加坡02 | 中转AZ x0.5
+      - 🇸🇬 新加坡04 | 中转AZ x0.5
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国02 | 中转AZ | 流媒体
+      - 🇺🇸 美国03 | 中转AZ | 流媒体
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 34
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 新加坡03 | 中转AZ x0.5
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇮🇹 意大利 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 81
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 95
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 97
-      - 003013151 14
-      - 003013151 7
-      - 003013151 8
-      - 143.244.56.226:40093
-      - 4
-      - 🇨🇦 加拿大
-      - 🇩🇪 西班牙 马德里（感谢关注youtube：8度科技）
-      - 🇫🇷 法国 2
-      - 🇮🇹 意大利 4
+      - "p5.22332e.com\x8dproxypoolss.herokuapp.com\r��originrc4-md5passfw2xs4e!"
+      - 23.82.11.49:50168
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国 10
+      - 154.17.5.184:18331
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 13
       - 🇮🇹 意大利 7
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 10
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 14
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 16
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 9
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 埃及（感谢关注youtube：8度科技） 4
-      - 埃及（感谢关注youtube：8度科技） 6
-      - 埃及（感谢关注youtube：8度科技） 7
-      - 埃及（感谢关注youtube：8度科技） 8
       - 克罗地亚
+      - 207.244.67.149:33998
+      - 207.244.67.149:50168
+      - 🇨🇦 加拿大
+      - 185.44.76.188:31764
+      - 154.17.2.95:18334
+      - 🇷🇴 罗马尼亚
+      - 154.17.2.117:18333
+      - 154.17.1.251:18334
+      - 罗马 顺丰资源Youtube 6
       - 🇪🇺 欧洲🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 顺丰资源YouTube 12
-      - 顺丰资源YouTube 12 4
-      - 顺丰资源YouTube 15
-      - 顺丰资源YouTube 15 2
-      - 顺丰资源YouTube 2 2
-      - 顺丰资源YouTube 20 3
-      - 顺丰资源YouTube 21
-      - 顺丰资源YouTube 6 3
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 178
-      - 218
-      - 148
-      - 152
-      - 188
-      - 264
-      - 🇮🇪 github.com/freefq - 爱尔兰 183
-      - 16
-      - 15
-      - 282
-      - 213
-      - 🇺🇸 github.com/freefq - 美国 114
-      - 🇺🇸 github.com/freefq - 美国 110
-      - 256
-      - 229
-      - 🇪🇺 github.com/freefq - 欧洲 7
-      - 248
-      - 35
-      - 25
-      - 151
-      - 🇩🇪 github.com/freefq - 德国 101
-      - github.com/freefq - 捷克 151
-      - 🇷🇴 github.com/freefq - 罗马尼亚 34
-      - 204
-      - 1
-      - 189
-      - 196
-      - 242
-      - 74
-      - 271
-      - 🇩🇰 github.com/freefq - 丹麦 21
-      - 183
-      - 235
-      - 270
-      - 215
-      - 114
-      - 55
-      - 120
-      - 62
-      - 🇮🇳 github.com/freefq - 印度 147
-      - 117
-      - 119
-      - 79
-      - 246
-      - 244
-      - 275
-      - 285
-      - 64
-      - 123
-      - 65
-      - 54
-      - 14
-      - 127
-      - 58
-      - 146
-      - 93
-      - 276
-      - 191
-      - 69
-      - 251
-      - github.com/freefq - 葡萄牙 101
-      - github.com/freefq - 卢森堡 96
-      - 217
-      - 283
-      - 🇮🇹 github.com/freefq - 意大利 18
-      - 265
-      - github.com/freefq - 捷克 151 2
-      - 245
-      - 🇷🇴 github.com/freefq - 罗马尼亚 36
-      - 205
-      - 274
-      - 🇺🇸 github.com/freefq - 美国伊利诺伊州芝加哥CDN77节点175
-      - 18
-      - 220
-      - 257
-      - github.com/freefq - 捷克 178
-      - 278
-      - 🇷🇴 github.com/freefq - 罗马尼亚 149
-      - 227
-      - 181
-      - 8
-      - 193
-      - 214
-      - 2
-      - 10
-      - 🇬🇧 github.com/freefq - 英国 15
-      - 🇭🇰 github.com/freefq - 香港CDN77节点185
-      - 🇷🇴 github.com/freefq - 罗马尼亚 147
-      - 223
-      - 208
-      - 230
-      - 48
-      - 🇪🇸 github.com/freefq - 西班牙 69
-      - 272
-      - 🇷🇴 github.com/freefq - 罗马尼亚 171
-      - 197
-      - 247
-      - 277
-      - 210
-      - 262
-      - 249
-      - 269
-      - 🇭🇰 github.com/freefq - 香港CDN77节点148
-      - 216
-      - 243
-      - 268
-      - github.com/freefq - 捷克 147
-      - 225
-      - 209
-      - 203
-      - 228
-      - 13
-      - 287
-      - 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 6
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 7
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 8
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 9
+      - 154.17.2.135:18333
+      - 154.17.1.245:18334
+      - 顺丰资源Youtube 16
+      - 罗马 顺丰资源Youtube 8
+      - 罗马 顺丰资源Youtube 7
+      - 罗马 顺丰资源Youtube 2
+      - 罗马 顺丰资源Youtube 15
+      - 198.147.22.87:33998
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 19
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 23
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 32
+      - 频道
+      - w
+      - w123
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 27
+      - 塞浦路斯
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3h18eE7 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 37
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 38
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 10
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 11
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
       - 🇫🇷 法国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
+      - 🇨🇳 台湾 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x
-      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 9
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇸🇬 YouTube晓柒科技分享：新加坡
-      - 🇸🇬 YouTube晓柒科技分享：新加坡 2
-      - 🇸🇬 YouTube晓柒科技分享：新加坡 3
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - xf
-      - xf 2
-      - xf 3
-      - xf 4
-      - xf 5
-      - 🇺🇸 US_1758
-      - 🇺🇸 github.com/freefq - 美国惠普HP 1
-      - 🇺🇸 github.com/freefq - 美国  2
-      - 🇷🇺 github.com/freefq - 俄罗斯  17
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
-      - github.com/freefq - 波兰  18
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 1
-      - 🇬🇧 英国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国
+      - 🇸🇬 新加坡02 | 中转AZ x0.5
+      - 🇸🇬 新加坡04 | 中转AZ x0.5
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国02 | 中转AZ | 流媒体
+      - 🇺🇸 美国03 | 中转AZ | 流媒体
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 34
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 新加坡03 | 中转AZ x0.5
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇮🇹 意大利 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1223,241 +388,74 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 6
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 81
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 95
-      - （欢迎订阅晓柒科技YouTube频道）3.05高速节点 97
-      - 003013151 14
-      - 003013151 7
-      - 003013151 8
-      - 143.244.56.226:40093
-      - 4
-      - 🇨🇦 加拿大
-      - 🇩🇪 西班牙 马德里（感谢关注youtube：8度科技）
-      - 🇫🇷 法国 2
-      - 🇮🇹 意大利 4
+      - "p5.22332e.com\x8dproxypoolss.herokuapp.com\r��originrc4-md5passfw2xs4e!"
+      - 23.82.11.49:50168
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国 10
+      - 154.17.5.184:18331
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 13
       - 🇮🇹 意大利 7
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 10
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 14
-      - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 16
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 9
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 埃及（感谢关注youtube：8度科技） 4
-      - 埃及（感谢关注youtube：8度科技） 6
-      - 埃及（感谢关注youtube：8度科技） 7
-      - 埃及（感谢关注youtube：8度科技） 8
       - 克罗地亚
+      - 207.244.67.149:33998
+      - 207.244.67.149:50168
+      - 🇨🇦 加拿大
+      - 185.44.76.188:31764
+      - 154.17.2.95:18334
+      - 🇷🇴 罗马尼亚
+      - 154.17.2.117:18333
+      - 154.17.1.251:18334
+      - 罗马 顺丰资源Youtube 6
       - 🇪🇺 欧洲🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 顺丰资源YouTube 12
-      - 顺丰资源YouTube 12 4
-      - 顺丰资源YouTube 15
-      - 顺丰资源YouTube 15 2
-      - 顺丰资源YouTube 2 2
-      - 顺丰资源YouTube 20 3
-      - 顺丰资源YouTube 21
-      - 顺丰资源YouTube 6 3
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 178
-      - 218
-      - 148
-      - 152
-      - 188
-      - 264
-      - 🇮🇪 github.com/freefq - 爱尔兰 183
-      - 16
-      - 15
-      - 282
-      - 213
-      - 🇺🇸 github.com/freefq - 美国 114
-      - 🇺🇸 github.com/freefq - 美国 110
-      - 256
-      - 229
-      - 🇪🇺 github.com/freefq - 欧洲 7
-      - 248
-      - 35
-      - 25
-      - 151
-      - 🇩🇪 github.com/freefq - 德国 101
-      - github.com/freefq - 捷克 151
-      - 🇷🇴 github.com/freefq - 罗马尼亚 34
-      - 204
-      - 1
-      - 189
-      - 196
-      - 242
-      - 74
-      - 271
-      - 🇩🇰 github.com/freefq - 丹麦 21
-      - 183
-      - 235
-      - 270
-      - 215
-      - 114
-      - 55
-      - 120
-      - 62
-      - 🇮🇳 github.com/freefq - 印度 147
-      - 117
-      - 119
-      - 79
-      - 246
-      - 244
-      - 275
-      - 285
-      - 64
-      - 123
-      - 65
-      - 54
-      - 14
-      - 127
-      - 58
-      - 146
-      - 93
-      - 276
-      - 191
-      - 69
-      - 251
-      - github.com/freefq - 葡萄牙 101
-      - github.com/freefq - 卢森堡 96
-      - 217
-      - 283
-      - 🇮🇹 github.com/freefq - 意大利 18
-      - 265
-      - github.com/freefq - 捷克 151 2
-      - 245
-      - 🇷🇴 github.com/freefq - 罗马尼亚 36
-      - 205
-      - 274
-      - 🇺🇸 github.com/freefq - 美国伊利诺伊州芝加哥CDN77节点175
-      - 18
-      - 220
-      - 257
-      - github.com/freefq - 捷克 178
-      - 278
-      - 🇷🇴 github.com/freefq - 罗马尼亚 149
-      - 227
-      - 181
-      - 8
-      - 193
-      - 214
-      - 2
-      - 10
-      - 🇬🇧 github.com/freefq - 英国 15
-      - 🇭🇰 github.com/freefq - 香港CDN77节点185
-      - 🇷🇴 github.com/freefq - 罗马尼亚 147
-      - 223
-      - 208
-      - 230
-      - 48
-      - 🇪🇸 github.com/freefq - 西班牙 69
-      - 272
-      - 🇷🇴 github.com/freefq - 罗马尼亚 171
-      - 197
-      - 247
-      - 277
-      - 210
-      - 262
-      - 249
-      - 269
-      - 🇭🇰 github.com/freefq - 香港CDN77节点148
-      - 216
-      - 243
-      - 268
-      - github.com/freefq - 捷克 147
-      - 225
-      - 209
-      - 203
-      - 228
-      - 13
-      - 287
-      - 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 新加坡🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇯🇵 日本🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 6
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 7
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 8
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 9
+      - 154.17.2.135:18333
+      - 154.17.1.245:18334
+      - 顺丰资源Youtube 16
+      - 罗马 顺丰资源Youtube 8
+      - 罗马 顺丰资源Youtube 7
+      - 罗马 顺丰资源Youtube 2
+      - 罗马 顺丰资源Youtube 15
+      - 198.147.22.87:33998
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 19
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 23
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 32
+      - 频道
+      - w
+      - w123
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 27
+      - 塞浦路斯
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3h18eE7 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 37
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 38
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 10
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 11
-      - 🇨🇦 加拿大🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
       - 🇫🇷 法国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
-      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
+      - 🇨🇳 台湾 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x
-      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 9
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇸🇬 YouTube晓柒科技分享：新加坡
-      - 🇸🇬 YouTube晓柒科技分享：新加坡 2
-      - 🇸🇬 YouTube晓柒科技分享：新加坡 3
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - xf
-      - xf 2
-      - xf 3
-      - xf 4
-      - xf 5
-      - 🇺🇸 US_1758
-      - 🇺🇸 github.com/freefq - 美国惠普HP 1
-      - 🇺🇸 github.com/freefq - 美国  2
-      - 🇷🇺 github.com/freefq - 俄罗斯  17
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 16
-      - github.com/freefq - 波兰  18
-      - 🇨🇦 加拿大安大略省基奇纳DataCity数据中心 1
-      - 🇬🇧 英国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国
+      - 🇸🇬 新加坡02 | 中转AZ x0.5
+      - 🇸🇬 新加坡04 | 中转AZ x0.5
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国02 | 中转AZ | 流媒体
+      - 🇺🇸 美国03 | 中转AZ | 流媒体
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 34
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 新加坡03 | 中转AZ x0.5
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇮🇹 意大利 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3177,7 +2175,6 @@ rules:
  - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
  - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
- - DOMAIN-SUFFIX,redirector.gvt1.com,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
@@ -3242,17 +2239,43 @@ rules:
  - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,hinet.net,🚀 节点选择
  - DOMAIN-KEYWORD,livedazn,🚀 节点选择
+ - DOMAIN-KEYWORD,vod2dazn,🚀 节点选择
  - DOMAIN-KEYWORD,voddazn,🚀 节点选择
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
+ - DOMAIN,edge.api.brightcove.com,🚀 节点选择
+ - DOMAIN,players.brightcove.net,🚀 节点选择
+ - DOMAIN-SUFFIX,amplify.outbrain.com,🚀 节点选择
+ - DOMAIN-SUFFIX,bluekai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,control.kochava.com,🚀 节点选择
+ - DOMAIN-SUFFIX,cws.conviva.com,🚀 节点选择
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,dazn-api.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazndn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,🚀 节点选择
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🚀 节点选择
  - DOMAIN-SUFFIX,indazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,indaznlab.com,🚀 节点选择
+ - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
+ - DOMAIN-SUFFIX,perfops.doracdn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,s.llnwi.net,🚀 节点选择
+ - DOMAIN-SUFFIX,s.yimg.jp,🚀 节点选择
+ - DOMAIN-SUFFIX,secure.footprint.net,🚀 节点选择
  - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
+ - DOMAIN-SUFFIX,urbanairship.com,🚀 节点选择
+ - DOMAIN-SUFFIX,vjs.zencdn.net,🚀 节点选择
+ - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,🚀 节点选择
+ - DOMAIN-SUFFIX,yahoo.co.jp,🚀 节点选择
  - DOMAIN-SUFFIX,deezer.com,🚀 节点选择
  - DOMAIN-SUFFIX,dzcdn.net,🚀 节点选择
  - DOMAIN,cdn.registerdisney.go.com,🚀 节点选择
@@ -3473,6 +2496,9 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
+ - PROCESS-NAME,com.google.android.apps.youtube.music,🚀 节点选择
+ - PROCESS-NAME,com.google.android.youtube.tvmusicroot,🚀 节点选择
+ - PROCESS-NAME,com.vanced.android.apps.youtube.music,🚀 节点选择
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -3595,6 +2621,7 @@ rules:
  - DOMAIN-SUFFIX,nintendo.net,🚀 节点选择
  - DOMAIN-SUFFIX,nsstatic.net,🚀 节点选择
  - DOMAIN-SUFFIX,nytstyle.com,🚀 节点选择
+ - DOMAIN-SUFFIX,overcast.fm,🚀 节点选择
  - DOMAIN-SUFFIX,openvpn.net,🚀 节点选择
  - DOMAIN-SUFFIX,periscope.tv,🚀 节点选择
  - DOMAIN-SUFFIX,pinimg.com,🚀 节点选择
@@ -4375,7 +3402,6 @@ rules:
  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
  - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
- - DOMAIN-SUFFIX,overcast.fm,🎯 全球直连
  - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
  - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
  - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
